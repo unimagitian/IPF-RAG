@@ -1,2 +1,2 @@
 # IPF-RAG
-IPF-RAG: Trajectory-Guided Retrieval-Augmented Generation for Idiopathic Pulmonary Fibrosis Care
+IPF-RAG: Temporal-Aware Retrieval-Augmented Generation for Idiopathic Pulmonary Fibrosis Care
