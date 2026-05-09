@@ -1,0 +1,15 @@
+model_name: deepseek-V3
+api_base: https://api.deepseek.com
+api_key_env: IPF_RAG_API_KEY
+streaming: true
+retrieval_top_k: 1
+
+paths:
+  ipf_corpus_dir: private_data/ipf_knowledge_base
+  medication_corpus_dir: private_data/medication_information
+  medication_cache_json: private_data/medication_information/drug_dict_cache.json
+  ipf_faiss_index_dir: private_data/indexes/ipf_index
+  medication_faiss_index_dir: private_data/indexes/medication_index
+  embedding_model_dir: models/bge-small-zh-v1.5
+  questions_file: examples/test_questions.txt
+  outputs_dir: outputs

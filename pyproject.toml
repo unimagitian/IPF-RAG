@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ipf-rag"
+version = "0.1.0"
+description = "Temporal-aware retrieval-augmented generation for idiopathic pulmonary fibrosis care"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Anonymous for review" }
+]
+license = { text = "MIT" }
+keywords = ["rag", "medical-ai", "ipf", "langchain", "retrieval-augmented-generation"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = [
+  "langchain>=0.3.0",
+  "langchain-openai>=0.2.0",
+  "langchain-community>=0.3.0",
+  "langchain-huggingface>=0.1.0",
+  "langchain-core>=0.3.0",
+  "faiss-cpu>=1.8.0",
+  "sentence-transformers>=3.0.0",
+  "flashtext>=2.7",
+  "pydantic>=2.8.0",
+  "python-dotenv>=1.0.1"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
