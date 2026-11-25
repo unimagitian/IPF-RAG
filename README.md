@@ -1,4 +1,33 @@
-# IPF-RAG: Temporal-Aware Retrieval-Augmented Generation for Idiopathic Pulmonary Fibrosis Care
+<h1 align="center">
+  IPF-RAG: Temporal-Aware Retrieval-Augmented Generation for Idiopathic Pulmonary Fibrosis Care
+</h1>
+<p align="center">
+  <a href="https://doi.org/10.3389/fdgth.2026.1883739">
+    <img src="https://img.shields.io/badge/Paper-Frontiers-blue" alt="Paper">
+  </a>
+  <a href="https://pubmed.ncbi.nlm.nih.gov/42952607/">
+    <img src="https://img.shields.io/badge/PubMed-42952607-326599" alt="PubMed">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
+  </a>
+</p>
+
+
+<p align="center">
+  Official implementation of IPF-RAG, published in <strong>Frontiers in Digital Health (2026)</strong>.
+</p>
+
+<p align="center">
+  <strong>Published:</strong> October 14, 2026
+</p>
+
+<p align="center">
+  <a href="https://doi.org/10.3389/fdgth.2026.1883739">Paper</a> |
+  <a href="https://pubmed.ncbi.nlm.nih.gov/42952607/">PubMed</a>
+</p>
+
+
 
 This repository contains the cleaned, publication-ready code release for the paper **IPF-RAG: Temporal-Aware Retrieval-Augmented Generation for Idiopathic Pulmonary Fibrosis Care**.
 
@@ -151,11 +180,16 @@ This public repository is intended to provide:
 ## Citation
 If you use this repository in academic work, please cite the corresponding paper.
 
-```text
-@article{ipf_rag_2026,
-  title={IPF-RAG: Temporal-Aware Retrieval-Augmented Generation for Idiopathic Pulmonary Fibrosis Care},
-  author={Anonymous},
-  year={2026}
+```bibtex
+@article{zheng2026ipfrag,
+  title={IPF-RAG: temporal-aware retrieval-augmented generation for idiopathic pulmonary fibrosis care},
+  author={Zheng, Xuejia and Rui, Xiang and Long, Teng and Wang, Liwen and Lv, Zhongdong and Wang, Jincheng and Jin, Zhe and Huang, Wendi and Dong, Xingbo and Wang, Qingwen and Dai, Yong},
+  journal={Frontiers in Digital Health},
+  volume={8},
+  pages={1883739},
+  year={2026},
+  doi={10.3389/fdgth.2026.1883739},
+  url={https://doi.org/10.3389/fdgth.2026.1883739}
 }
 ```
 
