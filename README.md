@@ -27,9 +27,9 @@
   <a href="https://pubmed.ncbi.nlm.nih.gov/42952607/">PubMed</a>
 </p>
 
-
-
-This repository contains the cleaned, publication-ready code release for the paper **IPF-RAG: Temporal-Aware Retrieval-Augmented Generation for Idiopathic Pulmonary Fibrosis Care**.
+<p align="center">
+  <img src="assets/IPF-RAG_Graphical_Abstract.png" alt="Graphical Abstract of IPF-RAG" width="90%">
+</p>
 
 ## Overview
 IPF-RAG is a retrieval-augmented clinical generation framework for idiopathic pulmonary fibrosis care. The released code focuses on the core methodological components used in the paper:
